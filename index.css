@@ -24,7 +24,7 @@ font: bold;
 }
 .img{
     margin-top: 20px;
-    width: 80px;
+    width: 90px;
     height: 40px;
     object-fit: cover;
 }
@@ -149,8 +149,45 @@ background-color: #FF42A5;
 border-radius: 100px;
 
 }
+/* section 3 */
+.danger{
+    text-align: center;
+}
+.empty{
+    display: flex;
+}
+.bonus{
+    width: 85%;
+    height: 340px;
+   margin-left: 40px;
+   /* margin-right: 20px; */
+} 
+.equation{
+    text-align: center;
+    margin-left: 30px;
+}
+.cold{
+    font-size: 30px;
+}
+.cold-1{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+font-family: Work Sans;
+font-size: 30px;
+font-weight: 700;
+}
+.bonus-1{
+    width: 48px;
+height: 48px;
 
+}
+ .apple{
+}
+  
 
+/* mobile vew */
 @media screen and (max-width: 576px){
     .container{
         flex-direction: column;
@@ -161,9 +198,16 @@ border-radius: 100px;
     .rose{
         flex-direction: column-reverse;
     }
+    .creat-1{
+        width: 100%;
+    }
+    .color-2{
+        width: 100%;
+    }
     .acount{
         text-align: center;
     }
+    /* section 2 */
     .color{
         flex-direction: column;
     }
@@ -171,4 +215,48 @@ border-radius: 100px;
         text-align: center;
         margin-left: 30px;
     }
+    .empty{
+        flex-direction: column;
+    }
+    .bonus{
+        width: 85%;
+    }
+   
+}
+/* tablet vew  */
+@media screen and (min-width: 576px) and (max-width:960px){
+    .container{
+        flex-direction: column;
+    }
+    .tomato{
+        flex-direction: column;
+    }
+    .rose{
+        flex-direction: column-reverse;
+    }
+    .creat-1{
+        width: 100%;
+    }
+    .color-2{
+        width:100%;
+    }
+    .acount{
+        text-align: center;
+    }
+    /* section 2 */
+    .color{
+        flex-direction: column;
+    }
+    .key{
+        text-align: center;
+        margin-left: 30px;
+    }
+
+.empty{
+    flex-direction: column;
+    
+}
+.bonus{
+    width: 85%;
+}
 }
