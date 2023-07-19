@@ -163,10 +163,10 @@ font-weight: 400;
     display: flex;
 }
 .bonus{
-    width: 300px;
+    width: 300;
     height: 340px;
    margin-left: 20px;
-   /* margin-right: 20px; */
+   margin-right: 20px;
 } 
 .equation{
     text-align: center;
@@ -190,7 +190,10 @@ font-weight: 700;
 height: 48px;
 }
 .transfer{
+    /* background-size: cover;
+    background-repeat: no-repeat; */
     position: relative;
+    /* background-image: url('./images/Rectangle\ 7.png'); */
 }
 .transfer-1{
     position: absolute;
@@ -200,6 +203,7 @@ height: 48px;
 }
 .clone{
     color: red;
+   
 }
 .bonus-1:hover{
     color: gray;
@@ -253,23 +257,29 @@ height: 200px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     margin-top: 100px;
-  
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+
 }
+.ar:hobe{
+    border-color: 1px solid transparent;
+}
+
 .recording{
-    width: 90%;
+    width: 80%;
 height: 80px; 
  border-radius: 40px;
 background: #FFF;
 margin-top: 20px;
 text-align: center;
-/* margin-left: 100px; */
-padding: 5px;
+ /* margin-left: 100px;  */
+padding: 10px;
 justify-content: center;
 align-items: center;
-border: none;
+border-style: none;
+border: #F948B2;
 }
 .recording-1{
-    width: 90%;
+    width: 80%;
     height: 80px;
     border-radius: 40px;
     background: #FFF;
@@ -279,7 +289,9 @@ border: none;
     padding: 5px;
     justify-content: center;
     align-items: center;
-    border-color: #FF42A5 ;
+  
+    border-style: none;
+   
 }
 .cat{
     width: 40px;
@@ -303,6 +315,7 @@ justify-content: center;
 /* footer section */
 .footer{
     background-color: #0B0223;
+    margin-top: 50px
  
 }
 .span-4{
