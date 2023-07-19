@@ -204,6 +204,8 @@ height: 48px;
 }
 .clone{
     color: red;
+    font-size: 20px;
+    font-weight: 600px;
    
 }
 .bonus-1:hover{
@@ -254,6 +256,7 @@ height: 200px;
     left: -90px;
 }
 /* section 5 */
+
 .economic{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -261,8 +264,8 @@ height: 200px;
     background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
 
 }
-.ar:hobe{
-    border-color: 1px solid transparent;
+.mane:hover{
+    border-color: 1px solid palevioletred;
 }
 
 .recording{
@@ -283,15 +286,16 @@ border: #F948B2;
     width: 80%;
     height: 80px;
     border-radius: 40px;
-    background: #FFF;
+    /* background: #FFF; */
     margin-top: 20px;
     text-align: center;
     /* margin-left: 100px; */
     padding: 5px;
     justify-content: center;
     align-items: center;
-  
-    border-style: none;
+    border: 1px solid magenta;
+/*   
+    border-style: none; */
    
 }
 .cat{
