@@ -498,7 +498,7 @@ height: 32.5px;
 }
 .economic{
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(5, 1fr);
     margin:auto;
     align-items: center;
     text-align: center;
