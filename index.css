@@ -162,13 +162,10 @@ font-weight: 400;
 }
 .empty{
     display: flex;
+    gap: 30px;
 }
-.bonus{
-    width: 250px;
-    height: 350px;
-   margin-left: 80px;
-  
-} 
+
+
 .equation{
     text-align: center;
     margin-left: 30px;
@@ -196,9 +193,9 @@ height: 48px;
     
 }
 .image-2{
-    width: 250px;
+    width: 280px;
     height: 350px;
-   margin-left: 80px;
+   margin-left: 30px;
    opacity: 2;
    display: block;
     transition: .5s ease;
@@ -284,49 +281,35 @@ height: 200px;
 
 .economic{
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(5, 1fr);
     margin-top: 100px;
-    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
-
-}
-.mane:hover{
-    border-color: 1px solid palevioletred;
+    gap:10px;
+   
+   
 }
 
 .recording{
+    background: linear-gradient(90deg, rgba(178, 9, 96, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
     width: 80%;
 height: 80px; 
- border-radius: 40px;
-background: #FFF;
+ border-radius: 30px;
+/* background: #FFF; */
 margin-top: 20px;
 text-align: center;
- /* margin-left: 100px;  */
-padding: 10px;
+ margin-left: 60px; 
+padding: 0px;
 justify-content: center;
 align-items: center;
-border-style: none;
-border: #F948B2;
+/* border: 1px solid tomato; */
+/* color: #d8288c; */
+border: none;
+margin-bottom: 50px;
 }
-.recording-1{
-    width: 80%;
-    height: 80px;
-    border-radius: 40px;
-    /* background: #FFF; */
-    margin-top: 20px;
-    text-align: center;
-    /* margin-left: 100px; */
-    padding: 5px;
-    justify-content: center;
-    align-items: center;
-    border: 1px solid magenta;
-/*   
-    border-style: none; */
-   
+.re:hover{
+color: #F948B2;
+
 }
-.ar{
-    text-align: center;
-   
-}
+
 .cat{
     width: 40px;
 height: 40px;
@@ -433,6 +416,17 @@ height: 32.5px;
         flex-direction: column-reverse;
        
     }
+    .economic{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        margin:auto;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+    }
+    .recording {
+        margin: auto;
+    }
     .t{
         width: 70%;
     }
@@ -505,13 +499,21 @@ height: 32.5px;
     flex-direction: column-reverse;
    
 }
+.economic{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin:auto;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
 .t{
-    width: 70%;
+    width: 100%;
 }
 .rutin {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
- margin-left: 30px;
+ /* margin-left: 30px; */
+ margin: auto;
 }
 .result-1{
     display: grid;
